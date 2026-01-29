@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: provisioner
-          image: docker.io/folylyfo/provisioner:09d1aa760bc7deeb20d6d0e9fcf7bbe222491098
+          image: docker.io/folylyfo/provisioner:e9d246ac47667c74a91c45e0ed282e4df50aa2e0
           ports:
             - containerPort: 80
           envFrom:
