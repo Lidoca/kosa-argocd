@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: provisioner-auth
-          image: docker.io/folylyfo/provisioner-auth:c7be641034a103762353684c8185ae4fbbe6e3f1
+          image: docker.io/folylyfo/folylyfo/provisioner-auth:99296a5a466990f538df3e15849cb0f80797a516
           ports:
             - containerPort: 80
           envFrom:
