@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: provisioner
-          image: docker.io/nervyniftypyramid/provisioner:latest
+          image: folylyfo/provisioner:c7be641034a103762353684c8185ae4fbbe6e3f1
           ports:
             - containerPort: 80
           envFrom:
