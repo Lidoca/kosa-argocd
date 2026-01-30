@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: provisioner
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: provisioner
@@ -20,3 +20,10 @@ spec:
           envFrom:
             - secretRef:
                 name: provisioner-env
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
